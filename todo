@@ -1,0 +1,6 @@
+hero/bento pages as main 2 landing pages. No true nav bar here.. 
+animated scroll between the 2. 
+Hero has Light dark mode options, resume download, and extra link to contact form 
+Bento hero has 2 profile pictures, 1 logo, LinkedIn and Github links and any other social media, along with Logo in bottom left corner
+Bento layout acts as navbar to About, Experience/Education, Projects, Contact sections
+these 4 are a seperate loadout with the navbar up top and can go between any of the 4.
