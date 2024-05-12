@@ -1,15 +1,15 @@
 const navLinks = [
     {
-        title: "Home",
-        path: "/",
-    },
-    {
         title: "About",
         path: "/about",
     },
     {
         title: "Experience",
         path: "/exp",
+    },
+    {
+        title: "Home",
+        path: "/",
     },
     {
         title: "Projects",

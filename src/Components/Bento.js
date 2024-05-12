@@ -4,10 +4,12 @@ import Logo from "../assets/image.png"
 import Skills from "./Skills";
 import Frameworks from "./Frameworks";
 
+
+
 const Bento = () => {
     return (
         <>
-            <ul className=" grid grid-cols-4 grid-rows-5 gap-24 m-12 px-10">
+            <ul className=" grid grid-cols-4 grid-rows-5 gap-20 m-12 px-12 pb-12 h-[85vh]">
                 {/* profile picture */}
                 <li className="bg-[#424b54] transform shadow-xl shadow-[#3b1c32] hover:shadow-[#149911] hover:scale-105 rounded-2xl row-span-3 col-span-2"><div className="h-24 text-center mt-48 ">Profile Picture</div></li>
                 {/* social icons */}
@@ -29,13 +31,13 @@ const Bento = () => {
                         <li className="bg-[#424b54] transform shadow-xl shadow-[#3b1c32] hover:shadow-[#149911] hover:scale-105 rounded-2xl row-span-1"><div className="h-24 text-center font-Alex font-light text-4xl ">Contact</div></li>
                     </Link>
                 {/* skills icons */}
-                <li className="bg-invisible transform hover:scale-125 rounded-2xl col-span-3"><div className="h-24 text-center "> <Skills /> </div></li>
+                <li className="bg-invisible transform rounded-2xl col-span-3"><div className="h-24 text-center "> <Skills /> </div></li>
                 {/* profile 2 */}
                 <li className="bg-[#424b54] transform shadow-xl shadow-[#3b1c32] hover:shadow-[#149911] hover:scale-105 rounded-2xl col-span-1 row-span-2"><div className="h-24 text-center ">Profile 2</div></li>
                 {/* logo */}
                 <li className="bg-invisible transform"><img className="rounded-3xl shadow-xl shadow-[#3b1c32] hover:shadow-[#149911] hover:scale-105 h-36 w-36 ml-36" src={Logo} alt="hulk logo" /></li>
                 {/* skills icons continued */}
-                <li className="bg-invisible transform  hover:scale-125 rounded-2xl col-span-2"><div className="h-24 text-center "> <Frameworks /> </div></li>
+                <li className="bg-invisible transform rounded-2xl col-span-2"><div className="h-24 text-center "> <Frameworks /> </div></li>
             </ul>
         </>
     );

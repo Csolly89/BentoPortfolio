@@ -4,6 +4,7 @@ import js from "../assets/Js.png"
 import react from "../assets/React.png"
 import sql from "../assets/Sql.png"
 import tailwind from "../assets/Tailwind.png"
+import python from "../assets/python.png"
 
 
 const skills = [
@@ -19,6 +20,11 @@ const skills = [
     },
     {
         pic:js ,
+        alt:"" ,
+        
+    },
+    {
+        pic:python ,
         alt:"" ,
         
     },
