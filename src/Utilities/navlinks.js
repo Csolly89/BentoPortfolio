@@ -1,6 +1,6 @@
 const navLinks = [
     {
-        title: "About",
+        title: "Bio/About",
         path: "/about",
     },
     {

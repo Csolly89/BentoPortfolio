@@ -1,8 +1,8 @@
 const projects = [
     {
         Img: "img",
-        Title: "x",
-        Description: "x stuff",
+        Title: "Higgins Excavation LLC",
+        Description: "Single man excavation company",
     },
     {
         Img: "y",

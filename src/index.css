@@ -8,21 +8,42 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .card-wrapper {
-        @apply relative overflow-hidden
+.card {
+    width: 100svw;
+    height: 5.5em;
+    background: #07182E;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    background-image: linear-gradient(180deg, rgb(36,79,38), rgb(20,153,17));
+    height: 20%;
+    animation: rotBGimg 2.6s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+@keyframes rotBGimg {
+    from {
+        transform: rotate(0deg);
     }
 
-    .card-wrapper::before{
-        background: conic-gradient(
-            rgba(66,75,84,0.6) 0deg,
-            rgba(20,153,17,1) 0deg,
-            transparent 120deg
-        );
-        @apply absolute h-[200%] w-[200%] left-[-50%] top-[-50%] content-[''] animate-border-spin
-    }
-
-    .card-content{
-        @apply absolute w-[calc(100%-2px)] h-[calc(100%-2px)] bg-gradient-to-b from-[#111d13] to-[#424b54] top-[1px] left-[1px]
+    to {
+        transform: rotate(180deg);
     }
 }
+
+.card::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+}  

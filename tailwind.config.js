@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -12,17 +14,16 @@ module.exports = {
       'Gov': ["Frijole", 'system-ui'],
     },
     extend: {
-      keyframes: {
-        'border-spin': {
-          '100%': {
-            transform: 'rotate(-360deg)',
-          },
-        },
+      colors: {
+        textwhite: "#fffbfe",
+        charcoal: "#424b54",
+        eerie: "#111d13",
+        primary: "#244f26",
+        secondary: "#3b1c32",
+        accent: "#149911",
       },
-      animation: {
-        'border-spin': 'border-spin 7s linear infinite'
-      }
+      },
+      
     },
-  },
-  plugins: [],
-}
+  };
+  plugin;
