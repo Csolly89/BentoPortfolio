@@ -10,7 +10,6 @@ module.exports = {
       'Alex': ["Alex Brush", "cursive"],
       'Prompt': ["Prompt", 'sans-serif'],
       'Sans': ["Nunito Sans", 'sans-serif'],
-      'Cursive': ["Qwigley", 'cursive'],
       'Gov': ["Frijole", 'system-ui'],
     },
     extend: {

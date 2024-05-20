@@ -47,3 +47,10 @@
     inset: 5px;
     border-radius: 15px;
 }  
+
+.First::first-letter {
+    initial-letter: 2; 
+    padding-right: .5em;
+    color: #149911;
+}
+
