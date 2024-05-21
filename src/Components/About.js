@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import green from "../assets/greenGradient.png"
+import Hulk from "../assets/Hulk2.jpg"
 
 
 const About = () => {
@@ -9,9 +10,9 @@ const About = () => {
             <img className="w-full h-[100vh] top-0 fixed z-[-10]  object-fill" src={green} alt="gradient background" />
             <article className="mt-[4em] font-Sans text-textwhite pb-44">
                     {/* first section*/}
-                <section className="">
+                <section>
                     <div className="grid grid-cols-12">
-                        <div className="col-span-8 place-self-center text-left ml-20 ">
+                        <div className="col-span-8 place-self-center text-left ml-20 mt-16">
                             <h1 className="text-7xl font-Alex ml-10">
                                 Well hello there,
                                 <br></br>
@@ -28,8 +29,8 @@ const About = () => {
                         </div>
                         {/* 2nd container with Logo/img  */}
                         <div className="col-span-4 place-self-center mt-4 lg:mt-0">
-                            <div className="rounded-full bg-gradient-to-br from-black to-green-700 w-[250px] h-[250px] relative lg:w-[375px] lg:h-[305px] mt-4">
-
+                            <div className="rounded-full bg-gradient-to-br from-black to-green-700 w-[250px] h-[250px] relative lg:w-[375px] lg:h-[305px] mt-4 overflow-hidden">
+                                <img className="relative bottom-5" src={Hulk} alt="passive hulk against a wall" />
                             </div>
                         </div>
                     </div>
