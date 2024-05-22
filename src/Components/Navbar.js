@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <>
             <div className="card">
-                <ul className="flex p-4 w-[100svw] flex-row justify-between space-x-8 mt-0 font-Prompt text-2xl z-10 bg-[#111d13] text-[#fffbfe]">
+                <ul className="flex flex-row p-4 w-full justify-center m font-Prompt text-2xl z-10 bg-eerie text-textwhite">
                     {navLinks.map((link, index) => (
-                        <li className="px-24" key={index}>
+                        <li className="px-24 mr-10" key={index}>
                             <NavLink href={link.path} title={link.title} />
                         </li>
                     ))

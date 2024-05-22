@@ -19,7 +19,6 @@ const navLinks = [
         title: "Contact",
         path: "/contact",
     },
-    
 ]
 
 export default navLinks

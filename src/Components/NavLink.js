@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const NavLink = ({ href, title }) => {
     return (
-        <Link to={href} className="block py-2 pl-3 pr-4  ">
+        <Link to={href} className="block py-2 ">
             {title}
         </Link>
     )
