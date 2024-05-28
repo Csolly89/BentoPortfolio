@@ -13,17 +13,17 @@ const About = () => {
                 <section>
                     <div className="grid grid-cols-12">
                         <div className="col-span-8 place-self-center text-left ml-20 mt-16">
-                            <h1 className="text-7xl font-Alex ml-10">
+                            <h1 className="text-9xl font-Alex ml-10">
                                 Well hello there,
                                 <br></br>
                             </h1>
-                            <p className="text-md First font-Prompt font-light mb-12 leading-8">
+                            <p className="First text-2xl font-Prompt mb-12 leading-8">
                                 My name is Christopher Solly but I prefer to go by C-jay. I am a Web Designer and Front end Developer. Since graduating <span className="pl-[.2em]"> highschool </span>I have been working my way through retail stores starting off as a bag-boy and eventually up to being 3rd in line for store management as Perishable/Meat manager. After
                                 having my daughter and looking forward in our lives, made the decision to change careers and jump into a Software Development bootcamp through NC State and ThriveDx in hopes to express my artistic flare and turn it into a more profitable and work/life balanced career.
-                                I am an outgoing person that has no problem talking with others and making lasting connections;<span className="text-xs  mx-1 text-accent">(unless you're a Raiders fan...Go Bronco's!!).</span> I am a diehard football fanatic being a fan of the Denver Bronco's and a Semi-pro Left Tackle player as well for the last 7 years.
-                                Other favorites of mine include Star Wars, the Monsterverse as a whole (Godzilla/Kong/Pacific Rim), Marvel comics and movies <span className="text-xs mx-1 text-accent"> (mainly the inifity saga, its dropped off hard since then)</span> and since becoming a Butcher about 10 years ago, always in the mood for a damn good steak. I fully believe
+                                I am an outgoing person that has no problem talking with others and making lasting connections;<span className="text-sm  mx-1 text-green-500">(unless you're a Raiders fan...Go Bronco's!!).</span> I am a diehard football fanatic being a fan of the Denver Bronco's and a Semi-pro Left Tackle player as well for the last 7 years.
+                                Other favorites of mine include Star Wars, the Monsterverse as a whole <span className="text-sm mx-1 text-green-500">(Godzilla/Kong/Pacific Rim) </span>, Marvel comics and movies <span className="text-sm mx-1 text-green-500"> (mainly the inifity saga, its dropped off hard since then)</span> and since becoming a Butcher about 10 years ago, always in the mood for a damn good steak. I fully believe
                                 life is too short to waste time on bs and not be the most honest version of yourself you can be and not have fun while you're still here. I also have a horrible habbit of screaming Arnold Schwarzenegger while impersonating his accent.
-                            I finished my bootcamp with ThriveDx and NC State at the end of March 2024 and am currently working as a independent contractor with CodeNurturers LLC and hopefully soon a pt data entry specialist with PFF. 
+                            I finished my bootcamp with ThriveDx and NC State at the end of March 2024 and am currently working as a independent contractor with CodeNurturers LLC. 
                             Would love to get connected with you for any design or development work that you would like for me to take a shot at. Sincerly hope you have a wonderful day.
                             </p>
                         </div>

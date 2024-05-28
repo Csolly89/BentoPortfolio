@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'Alex': ["Alex Brush", "cursive"],
-      'Prompt': ["Hedvig Letters Serif", 'serif'],
+      'Prompt': ["Cormorant", 'serif'],
     },
     extend: {
       colors: {
