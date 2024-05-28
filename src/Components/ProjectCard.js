@@ -15,7 +15,7 @@ function ProjectCard({ item }) {
                 <div className="col-span-7 place-self-start text-cente my-36 ">
                     <div>
                         <Link to={item.path} target="_blank" rel="noopener noreferrer">
-                            <h2 className="text-textwhite text-4xl font-semibold  hover:text-secondary"> {item.Title}</h2>
+                            <h2 className="text-textwhite text-4xl font-semibold hover:text-secondary"> {item.Title}</h2>
                         </Link>
                         <p className="text-textwhite text-xl pl-5 mt-4 mr-10">{item.Description}</p>
                     </div>

@@ -5,11 +5,6 @@ import vs from "../assets/Vscode.png"
 
 const frameworks = [
     {
-        pic:github ,
-        alt:"" ,
-        
-    },
-    {
         pic:mongo ,
         alt:"" ,
         
