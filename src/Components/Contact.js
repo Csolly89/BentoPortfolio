@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import Navbar from "./Navbar";
 import emailjs from '@emailjs/browser';
+import Navbar from "./Navbar";
 import green from "../assets/greenGradient.png"
 
 
@@ -9,30 +9,30 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
+    // env variable for keys here
         emailjs
             .sendForm(
                 `${process.env.REACT_APP_SERVICE_ID}`,
-                `${process.env.REACT_APP_TEMPLATE_ID}`,
+                `${process.env.REACT_APP_TEMPLATE_ID}`, 
                 form.current, {
-                publicKey: `${process.env.REACT_APP_PUBLIC_KEY}`,
+                    publicKey: `${process.env.REACT_APP_PUBLIC_KEY}`,
             })
             .then(
-                () => {
-                    console.log('SUCCESS!');
-                    // e.target.reset();
-                },
-                (error) => {
-                    console.log('FAILED...', error.text);
-                },
-            );
+            () => {
+                console.log('SUCCESS!');
+                // e.target.reset();
+            },
+            (error) => {
+                console.log('FAILED...', error.text);
+            },
+        );
     };
     
     return (
         <>
         <div className="sticky top-0 z-10 overflow-hidden "> <Navbar /> </div>
         <img className="w-full h-[100vh] top-0 fixed z-[-10]  object-fill" src={green} alt="gradient background" />
-            <div className="mb-12">
+            <div className="mb-12 ">
                 <div  className="px-4 mx-auto sm:px-6 lg:px-8 mt-20">
                     <div className="max-w-2xl mx-auto text-center">
                         <h2 className="font-Prompt leading-tight text-white text-5xl">Lets get in touch!</h2>
